@@ -1,0 +1,69 @@
+.container {
+    width: 400px; /* Width ko chhota kar diya */
+    margin: auto;
+    height: auto; /* Isse auto hi rakhen */
+    margin-top: 10px;
+    background: #A0A899;
+    color: #0E1609;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 20px 30px; /* Padding ko bhi chhota kiya */
+}
+
+.container h1 {
+    font-size: 2rem; /* Font size ko chhota kiya */
+    font-weight: bold;
+    text-align: center;
+}
+
+.container hr {
+    height: 2px;
+    border: none;
+    background: #0E1609;
+}
+
+.container h2 {
+    font-size: 24px; /* Font size ko thoda chhota kiya */
+    font-weight: 500;
+}
+
+.container ul li {
+    display: flex;
+    align-items: center;
+    height: 50px; /* Height ko chhota kar diya */
+    padding-left: 10px; /* Padding ko chhota kiya */
+    border: 1px solid #5C6D5E;
+    border-radius: 8px;
+    margin-bottom: 15px; /* Margin ko bhi thoda chhota kiya */
+    font-size: 18px; /* Font size ko chhota kiya */
+    cursor: pointer;
+}
+
+.container button {
+    margin: auto;
+    width: 200px; /* Width ko chhota kiya */
+    height: 50px; /* Height ko chhota kiya */
+    background: #0E1609;
+    color: #A0A899;
+    font-size: 20px; /* Font size ko chhota kiya */
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.container .index {
+    margin: auto;
+    font-size: 16px; 
+}
+
+.container .correct {
+    background: #eff3ec;
+    border-color: #5C6D5E;
+}
+
+.container .wrong {
+    background: #edf3ee;
+    border-color: red;
+}

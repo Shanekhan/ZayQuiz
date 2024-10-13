@@ -1,0 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: "EB Garamond", serif;
+  height: 100vh;
+  background: linear-gradient(135deg, #0E1609, #1D2C20, #2E462B, #5C6D5E, #A0A899);
+
+}
